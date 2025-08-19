@@ -7,7 +7,7 @@
 - 双击桌面上的"神笔写作"图标
 - 或从开始菜单搜索"神笔写作"
 
-![首页界面截图](../image/home.jpg)
+![首页界面截图](../public/home.jpg)
 
 ## 配置模型设置
 
@@ -17,7 +17,7 @@
 4. 点击"测试"确保配置成功
 5. 推荐国内用户使用**硅基流动**[官网](https://cloud.siliconflow.cn/i/BT2o4ohd)和**AiHubMix（推理时代）**[官网](https://aihubmix.com?aff=4SXn)
 
-![模型设置截图](../image/model.jpg)
+![模型设置截图](../public/model.jpg)
 
 ## 配置功能设置
 
@@ -32,4 +32,4 @@
    - 知识图谱嵌入模型：bge-m3（在硅基流动为免费模型）
    - 其他功能为独立功能，可自由配置
 
-![功能设置截图](../image/feature.jpg)
+![功能设置截图](../public/feature.jpg)

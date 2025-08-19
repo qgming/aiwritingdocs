@@ -6,7 +6,7 @@ hero:
   text: "基于大模型的小说辅助创作助手"
   tagline: 由 Tauri2 + Vue3 构建的现代化 AI 写作助手，让创作更高效、更智能
   image:
-    src: /image/logo.png
+    src: /public/logo.png
     alt: 神笔写作
   actions:
     - theme: brand
