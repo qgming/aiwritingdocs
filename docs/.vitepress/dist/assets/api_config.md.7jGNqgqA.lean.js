@@ -1,1 +1,0 @@
-import{_ as i,c as a,o as n,Y as t}from"./chunks/framework.D76jOVwk.js";const o=JSON.parse('{"title":"配置选项","description":"","frontmatter":{},"headers":[],"relativePath":"api/config.md","filePath":"api/config.md"}'),l={name:"api/config.md"};function e(h,s,p,k,E,r){return n(),a("div",null,s[0]||(s[0]=[t("",48)]))}const g=i(l,[["render",e]]);export{o as __pageData,g as default};
