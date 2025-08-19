@@ -1,0 +1,117 @@
+/* 自定义主题样式 */
+
+:root {
+  /* 品牌颜色 - 基于 #1e90ff DodgerBlue */
+  --vp-c-brand-1: #1e90ff;
+  --vp-c-brand-2: #4da6ff;
+  --vp-c-brand-3: #80c0ff;
+
+  /* 背景颜色 */
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-alt: #f6f6f7;
+
+  /* 文本颜色 */
+  --vp-c-text-1: #213547;
+  --vp-c-text-2: #476582;
+  --vp-c-text-3: #94a3b8;
+}
+
+/* 暗色主题 */
+.dark {
+  --vp-c-bg: #1b1b1f;
+  --vp-c-bg-alt: #161618;
+  --vp-c-text-1: #ffffff;
+  --vp-c-text-2: #aaaaaa;
+  --vp-c-text-3: #747474;
+}
+
+/* 自定义字体 */
+.vp-doc {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* 代码块样式 */
+.vp-doc pre {
+  border-radius: 8px;
+  background: #f8f8f8;
+}
+
+.dark .vp-doc pre {
+  background: #282c34;
+}
+
+/* 标题样式 */
+.vp-doc h1 {
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
+.vp-doc h2 {
+  font-weight: 500;
+  color: var(--vp-c-text-1);
+}
+
+/* 链接样式 */
+.vp-doc a {
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+}
+
+.vp-doc a:hover {
+  text-decoration: underline;
+}
+
+/* 图片样式 */
+.vp-doc img {
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  text-decoration: none;
+  transition: border-color 0.2s;
+}
+
+.dark .vp-doc img {
+  border-color: #334155;
+}
+
+.vp-doc img:hover {
+  border-color: var(--vp-c-brand-1);
+}
+
+/* 按钮样式 */
+.VPButton {
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+/* 首页特色样式 */
+.feature {
+  border-radius: 12px;
+  padding: 24px;
+  background: var(--vp-c-bg-alt);
+  border: 1px solid #e2e8f0;
+  transition: all 0.2s;
+}
+
+.feature:hover {
+  transform: translateY(-2px);
+  border-color: var(--vp-c-brand-2);
+  box-shadow: 0 4px 12px rgba(30, 144, 255, 0.15);
+}
+
+.dark .feature {
+  border-color: #334155;
+}
+
+.dark .feature:hover {
+  border-color: var(--vp-c-brand-2);
+  box-shadow: 0 4px 12px rgba(30, 144, 255, 0.25);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .feature {
+    padding: 16px;
+  }
+}

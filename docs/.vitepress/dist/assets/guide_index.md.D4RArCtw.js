@@ -1,0 +1,12 @@
+import{_ as n,c as s,o as e,Y as i}from"./chunks/framework.D76jOVwk.js";const u=JSON.parse('{"title":"指南","description":"","frontmatter":{},"headers":[],"relativePath":"guide/index.md","filePath":"guide/index.md"}'),l={name:"guide/index.md"};function t(p,a,r,o,d,c){return e(),s("div",null,a[0]||(a[0]=[i(`<h1 id="指南" tabindex="-1">指南 <a class="header-anchor" href="#指南" aria-label="Permalink to &quot;指南&quot;">​</a></h1><p>欢迎来到 Writing Docs 指南！这里将帮助你快速上手使用这个文档站点。</p><h2 id="快速开始" tabindex="-1">快速开始 <a class="header-anchor" href="#快速开始" aria-label="Permalink to &quot;快速开始&quot;">​</a></h2><p>这个文档站点使用 VitePress 构建，提供了现代化的文档体验。</p><h3 id="特性" tabindex="-1">特性 <a class="header-anchor" href="#特性" aria-label="Permalink to &quot;特性&quot;">​</a></h3><ul><li><strong>快速开发</strong>：基于 Vite 的即时热更新</li><li><strong>现代架构</strong>：使用 Vue 3 + TypeScript</li><li><strong>响应式设计</strong>：完美适配各种设备</li><li><strong>全文搜索</strong>：快速找到所需内容</li><li><strong>主题定制</strong>：灵活的主题系统</li><li><strong>静态生成</strong>：SEO 友好且加载快速</li></ul><h2 id="目录结构" tabindex="-1">目录结构 <a class="header-anchor" href="#目录结构" aria-label="Permalink to &quot;目录结构&quot;">​</a></h2><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>docs/</span></span>
+<span class="line"><span>├── .vitepress/</span></span>
+<span class="line"><span>│   ├── config.js          # 配置文件</span></span>
+<span class="line"><span>│   └── theme/             # 主题目录</span></span>
+<span class="line"><span>├── guide/</span></span>
+<span class="line"><span>│   ├── index.md           # 指南首页</span></span>
+<span class="line"><span>│   ├── install.md         # 安装指南</span></span>
+<span class="line"><span>│   └── config.md          # 配置指南</span></span>
+<span class="line"><span>├── api/</span></span>
+<span class="line"><span>│   ├── index.md           # API 概览</span></span>
+<span class="line"><span>│   └── config.md          # 配置选项</span></span>
+<span class="line"><span>└── index.md               # 首页</span></span></code></pre></div><h2 id="下一步" tabindex="-1">下一步 <a class="header-anchor" href="#下一步" aria-label="Permalink to &quot;下一步&quot;">​</a></h2><ul><li><a href="./install.html">安装指南</a> - 了解如何安装和配置</li><li><a href="./config.html">配置选项</a> - 深入了解配置细节</li></ul>`,10)]))}const g=n(l,[["render",t]]);export{u as __pageData,g as default};
