@@ -2,12 +2,12 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   title: "神笔写作",
-  description: "AI 辅助小说创作软件使用指南",
+  description: "AI 辅助小说创作软件",
   lang: "zh-CN",
   ignoreDeadLinks: true,
 
   themeConfig: {
-    logo: "/logo.png",
+    logo: "/image/logo.png",
     nav: [
       { text: "首页", link: "/" },
       { text: "指南", link: "/guide/getting-started" },
