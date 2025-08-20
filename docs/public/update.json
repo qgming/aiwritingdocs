@@ -1,0 +1,17 @@
+{
+  "version": "0.1.2",
+  "date": "2025-08-19T00:00:00.000Z",
+  "title": "神笔写作 v0.1.2 公开测试版",
+  "description": "AI 辅助小说创作软件公开测试版发布",
+  "changes": [
+    "支持 AI 辅助写作",
+    "知识图谱功能",
+    "提示词管理",
+    "实用工具集成"
+  ],
+  "downloadUrl": "https://shenbi.qgming.com/guide/update.html",
+  "size": "5MB",
+  "platform": [
+    "Windows"
+  ]
+}

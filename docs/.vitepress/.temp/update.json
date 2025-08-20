@@ -1,0 +1,44 @@
+{
+  "version": "0.1.1",
+  "releaseDate": "2025-08-19T00:00:00.000Z",
+  "notes": [
+    {
+      "version": "0.1.1",
+      "date": "2025-08-19T00:00:00.000Z",
+      "title": "神笔写作 v0.1.1 公开测试版",
+      "description": "AI 辅助小说创作软件公开测试版发布",
+      "changes": [
+        "支持 AI 辅助写作",
+        "知识图谱功能",
+        "提示词管理",
+        "实用工具集成",
+        "多平台支持 (Windows, macOS, Linux)"
+      ],
+      "downloadUrl": "https://pan.quark.cn/s/4b11b0cd4a69",
+      "size": "5MB",
+      "platform": ["Windows"]
+    },
+    {
+      "version": "0.1.0",
+      "date": "2025-08-15T00:00:00.000Z",
+      "title": "神笔写作 v0.1.0 内测版",
+      "description": "AI 辅助小说创作软件内测版本",
+      "changes": [
+        "基础写作功能",
+        "简单的 AI 集成",
+        "用户界面优化"
+      ],
+      "downloadUrl": "https://shenbi.qgming.com/guide/update.html",
+      "size": "5MB",
+      "platform": ["Windows"]
+    }
+  ],
+  "latest": {
+    "version": "0.1.1",
+    "date": "2025-08-19T00:00:00.000Z",
+    "downloadUrl": "https://pan.quark.cn/s/4b11b0cd4a69",
+    "changelog": "https://shenbi.qgming.com/guide/update.html"
+  },
+  "minimumVersion": "0.1.0",
+  "updateUrl": "https://shenbi.qgming.com/update.json"
+}
